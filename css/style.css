@@ -1,0 +1,77 @@
+/************************** Base style  *****************/
+* {
+    box-sizing: border-box;
+}
+
+h3,
+h1,
+div,
+section,
+main,
+article,
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Comic Sans MS',Tahoma,'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.wraper {
+    margin: 25px 15px;
+}
+h1 {
+    margin-bottom: 35px;
+    text-align: center;
+}
+.menu-title {
+    position: relative;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+    .menu-title h3 {
+        position: absolute;
+        right: 0;
+        border-left: solid 1px black;
+        border-bottom: solid 1px black;
+        padding: 5px 45px;
+    }
+.chicken {
+    background: #CE8E8F;
+}
+.beef {
+    background: #B73B3D;
+    color: #ffffff;
+}
+.sushi {
+    background: #E2CA92;
+}
+col-md-6,
+.col-md-12,
+.col-lg-4 {
+    float: left;
+}
+.container {
+    border: 1px solid black;
+    background: #909090;
+    margin: 10px;
+}
+.container article {
+    margin: 40px 0 0 15px;
+}
+/******************** Tablet devices*************************/
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+/********************* Desktop devices**********************/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33%;
+    }
+}
